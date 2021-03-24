@@ -5,13 +5,14 @@ Agent-based simulation of the pandemic during and after the Tokyo Olympic Games 
 
 ## Unreal Engine Project
 
-
-
 ![1](./Images/Tokyo.jpg)
 
+A cartoon video glancing the digital twin simulation of the entire Tokyo Olympic Games amid pandemic transmission is available at https://drive.google.com/file/d/1DRW0PJrI8OWlu-NYoM3ylsb4_z7s8XAZ/view?usp=sharing.
 ### Requirements
 
 * Unreal Engine 4.26.x
+
+### Installation
   
 ## Dynamic Policies Training
 ### Requirements
