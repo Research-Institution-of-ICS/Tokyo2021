@@ -39,17 +39,40 @@ Open *ToolMan.uproject* to run the agent-based simulation.
 ### Requirements
 
 * Python 3.7
+
+### Installation
+
+Use pip to install `tensorflow` `gym` `keras-rl` and `python-socketio`.
+
+### Usage
+
+Modify paths of UE4Editor.exe and ToolMan.uproject in *RL/main.py*:
+
+<pre>
+<code>child = subprocess.Popen(["C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/UE4Editor.exe", "***/ToolMan/ToolMan.uproject", "-game", "-windowed"])</code>
+</pre>
+
+Run *RL/main.py* to start the UE4 project.
+
+Run *RL/dqn_server.py* to establish socket communication between the Python neural network and the UE4 game environment.
+
 ## Pandemic Transmission Aftermath
 ### Requirements
 
 * MATLAB
 ### Usage
-以默认场景为例，运行*main.m*可以得到默认场景下传染病的演化过程数据。**result**文件夹里面是实验所得的数据，包括敏感性分析和其中不同的策略最后所得的结果。
 
-敏感性分析包括*R0*和*gamma*等一些参数的敏感性分析，具体程序为*R0_gamma.m*和*beta_test*等一些程序。
+Take the default scene as an example, run *main.m* to get the evolution process data of infectious diseases. The **result** folder contains the data obtained from the experiment, including the sensitivity analysis and the final results of the different strategies.
 
-**python_COVID19**是用python进行画图的一些数据和程序，**plot function**是使用MATLAB进行画图的一些代码。
+Sensitivity analysis includes sensitivity analysis of some parameters such as *R0* and *gamma*. The specific procedures are *R0_gamma.m* and *beta_test*.
 
+Data and programs for ploting with python are in **python_COVID19**, and codes for ploting with MATLAB are in **plot function**.
 
+# Citing
 
+You can cite: 
+<cite>
+Digital twin simulation and controllability of COVID-19 transmission dynamics amid and after Tokyo Olympic Games
+</cite>
+if you use our work.
 
