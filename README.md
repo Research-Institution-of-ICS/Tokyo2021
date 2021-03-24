@@ -70,9 +70,9 @@ Data and programs for ploting with python are in **python_COVID19**, and codes f
 
 # Citing
 
-You can cite: 
+If you use our work, you can cite: 
 <cite>
 Digital twin simulation and controllability of COVID-19 transmission dynamics amid and after Tokyo Olympic Games
 </cite>
-if you use our work.
+
 
