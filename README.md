@@ -43,7 +43,12 @@ Open *ToolMan.uproject* to run the agent-based simulation.
 ### Requirements
 
 * MATLAB
+### Usage
+以默认场景为例，运行*main.m*可以得到默认场景下传染病的演化过程数据。**result**文件夹里面是实验所得的数据，包括敏感性分析和其中不同的策略最后所得的结果。
 
+敏感性分析包括*R0*和*gamma*等一些参数的敏感性分析，具体程序为*R0_gamma.m*和*beta_test*等一些程序。
+
+**python_COVID19**是用python进行画图的一些数据和程序，**plot function**是使用MATLAB进行画图的一些代码。
 
 
 
