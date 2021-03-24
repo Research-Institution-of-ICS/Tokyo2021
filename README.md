@@ -35,7 +35,7 @@ Modify *"Data/Person0_main.json"* to run simulations of different scenarios.
 Open *ToolMan.uproject* to run the agent-based simulation.
 
 
-## Dynamic Policies Training
+## Dynamic Policies Training & Testing
 ### Requirements
 
 * Python 3.7
